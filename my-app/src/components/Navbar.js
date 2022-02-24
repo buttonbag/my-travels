@@ -2,9 +2,9 @@ import React from 'react';
 
 function Navbar() {
 	return (
-		<nav>
-			{/* <img src={require(`../images/pin.svg`)} alt="" /> */}
-			navbar
+		<nav className="navbar">
+			<img src="./images/world.svg" alt="" />
+			My Travel Journal
 		</nav>
 	);
 }
