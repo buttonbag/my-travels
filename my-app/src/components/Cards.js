@@ -8,7 +8,10 @@ function Cards(props) {
 			</div>
 			<div className="card--info">
 				<div className="card--location">
-					{props.location} <a href={props.googleMapsUrl}>View on Google Maps</a>
+					{props.location}{' '}
+					<a href={props.googleMapsUrl} target="_blank">
+						View on Google Maps
+					</a>
 				</div>
 				<h2 className="card--name">{props.title}</h2>
 				<div className="card--date">
