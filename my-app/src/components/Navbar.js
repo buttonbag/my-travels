@@ -3,7 +3,7 @@ import React from 'react';
 function Navbar() {
 	return (
 		<nav className="navbar">
-			<img src="./images/world.svg" alt="" />
+			<img className="world-img" src="../images/world.svg" alt="" />
 			My Travel Journal
 		</nav>
 	);
